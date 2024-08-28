@@ -1,0 +1,36 @@
+{
+  "name": "bookswap-backend",
+  "version": "1.0.0",
+  "description": "Backend server of the project BookSwap by SSS team",
+  "main": "dist/main.js",
+  "repository": "https://github.com/mcpeblocker/bookswap-backend.git",
+  "author": "SSS",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nodemon src/main.ts",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/multer": "^1.4.11",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.556.0",
+    "@socket.io/admin-ui": "^0.5.1",
+    "@typeschema/zod": "^0.13.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^9.9.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.5",
+    "tslog": "^4.9.2",
+    "zod": "^3.23.4"
+  }
+}
